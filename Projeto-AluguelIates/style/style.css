@@ -1,0 +1,16 @@
+#header{
+    background-color: #21272B;
+}
+
+#header, a, ul, p#header{
+    color:#FFFFFF;
+    list-style: none;
+}
+
+#header, a:hover{
+    color:#1BB4E8;
+}
+
+h1{
+    color:#1BB4E8;
+}
