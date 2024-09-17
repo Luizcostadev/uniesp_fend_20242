@@ -2,15 +2,44 @@
     background-color: #21272B;
 }
 
-#header, a, ul, p#header{
+h1{
+    position: relative;
+    left: 60px;
+    top: 30px;
+    color:#1BB4E8;
+}
+
+#header-logo img{
+    position: absolute;
+    left: 15px;
+    top: 40px;
+}
+
+#header a, ul, p{
     color:#FFFFFF;
     list-style: none;
+    text-decoration: none;
+    
 }
 
-#header, a:hover{
+#header a:hover{
     color:#1BB4E8;
 }
 
-h1{
-    color:#1BB4E8;
+#hearder-menu ul{
+    position: absolute;
+    top: 65px;
+    right: 50px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#hearder-menu li{
+    margin-right: 20px;
+}
+
+*{
+    font-family:Roboto;
+    font-weight: 300;
 }
