@@ -1,3 +1,10 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('fonts/inter.woff2') format('woff2'),url('fonts/inter.woff') format('woff'),url('fonts/inter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #header{
     background-color: #21272B;
     display: flex;
@@ -11,9 +18,13 @@ h1{
     position: relative;
     left: 55px;
     top: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
     color:#1BB4E8;
-    font-size: 25px;
     font-style: italic;
+    
 }
 
 #header-logo img{
@@ -26,8 +37,13 @@ h1{
     position: absolute;
     left: 85px;
     top: 45px;
-    font-size: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color:#FFFFFF;
     font-style: italic;
+
 }
 
 #header a, ul, p{
@@ -52,10 +68,12 @@ h1{
 
 #hearder-menu li{
     margin-right: 20px;
-    font-weight: 100;
+    font-weight: 400;
+    line-height: 20px;
+    font-size:14px;
 
 }
 
 *{
-    font-family:Helvetica;
+    font-family:'Inter';
 }
