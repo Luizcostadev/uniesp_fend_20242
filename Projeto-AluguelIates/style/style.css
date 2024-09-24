@@ -1,18 +1,33 @@
 #header{
     background-color: #21272B;
+    display: flex;
+    width: 100%;
+    background-color: #21272b;
+    height: 72px;
+    padding: 11px 23px 17px 23px;
 }
 
 h1{
     position: relative;
-    left: 60px;
-    top: 30px;
+    left: 55px;
+    top: 3px;
     color:#1BB4E8;
+    font-size: 25px;
+    font-style: italic;
 }
 
 #header-logo img{
     position: absolute;
-    left: 15px;
-    top: 40px;
+    left: 30px;
+    top: 32px;
+}
+
+#header-logo p{
+    position: absolute;
+    left: 85px;
+    top: 45px;
+    font-size: 23px;
+    font-style: italic;
 }
 
 #header a, ul, p{
@@ -28,7 +43,7 @@ h1{
 
 #hearder-menu ul{
     position: absolute;
-    top: 65px;
+    top: 70px;
     right: 50px;
     display: flex;
     margin: 0;
@@ -37,9 +52,10 @@ h1{
 
 #hearder-menu li{
     margin-right: 20px;
+    font-weight: 100;
+
 }
 
 *{
-    font-family:Roboto;
-    font-weight: 300;
+    font-family:Helvetica;
 }
